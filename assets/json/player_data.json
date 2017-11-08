@@ -1,0 +1,70 @@
+{
+  "Player": {
+    "Name": "tank",
+    "Pos": [ 0.0, 0.0, 0.0 ],
+    "Rot": [ 0.0, 180.0, 0.0 ],
+    "Scl": [ 1.0, 1.0, 1.0 ],
+    "Ambient": [ 0.0, 0.0, 1.0 ],
+    "Diffuse": [ 0.6, 0.6, 0.6 ],
+    "Specular": [ 0.9, 0.9, 0.9 ],
+    "Direction": [ 0.0, -1.0, 0.0 ],
+    "_Ambient": [ 0.2, 0.2, 0.8, 1.0 ],
+    "_Diffuse": [ 0.4, 0.4, 0.4, 1.0 ],
+    "_Specular": [ 1.0, 1.0, 1.0, 1.0 ],
+    "_Shininess": 0.0,
+    "_Emission": [ 0.1, 0.1, 0.1, 1.0 ],
+    "BulSpd": 1.0
+  },
+  "Parts": [
+    {
+      "MeshName": "mesh/tank/body.obj",
+      "TexName": "texture/white.png",
+      "Pos": [ 0.0, 0.8, 0.0 ],
+      "Rot": [ 0.0, 0.0, 0.0 ],
+      "Scl": [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "MeshName": "mesh/tank/gun_turret.obj",
+      "TexName": "texture/white.png",
+      "Pos": [ 0.0, 1.1, 0.2 ],
+      "Rot": [ 0.0, 0.0, 0.0 ],
+      "Scl": [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "MeshName": "mesh/tank/gun.obj",
+      "TexName": "texture/white.png",
+      "Pos": [ 0.0, 0.2, -0.8 ],
+      "Rot": [ 30.0, 0.0, 0.0 ],
+      "Scl": [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "MeshName": "mesh/tank/tire.obj",
+      "TexName": "texture/tire.png",
+      "Pos": [ 0.6, 0.3, 0.7 ],
+      "Rot": [ 0.0, 90.0, 0.0 ],
+      "Scl": [ 1.0, 1.0, 1.0 ],
+      "Width": 0.5
+    }
+  ],
+  "Bullet": {
+    "MeshName": "mesh/tank/bullet.obj",
+    "TexName": "texture/white.png",
+    "Pos": [ 1.0, 1.8, 0.0 ],
+    "Rot": [ 0.0, 0.0, 0.0 ],
+    "Scl": [ 1.0, 1.0, 1.0 ],
+    "Ambient": [ 0.0, 0.0, 0.0 ],
+    "Diffuse": [ 0.0, 0.0, 0.0 ],
+    "Specular": [ 0.0, 0.0, 0.0 ],
+    "Direction": [ 0.0, -1.0, 0.0 ],
+    "_Ambient": [ 0.0, 0.0, 0.0, 1.0 ],
+    "_Diffuse": [ 0.4, 0.4, 0.4, 1.0 ],
+    "_Specular": [ 0.0, 0.0, 0.0, 0.0 ],
+    "_Shininess": 0.0,
+    "_Emission": [ 0.1, 0.1, 0.1, 1.0 ],
+    "Power": 0.01,
+    "Type": 0,
+    "Grav": [ 0.0, -0.001, 0.0 ],
+    "AABB": [ 0.5, 0.5, 0.5 ],
+    "Rad": 1.0
+  }
+}

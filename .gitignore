@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+vc2015/combase.pdb/*
+vc2015/wrpcrt4.pdb/*
+
+*.sln
+*.filters
+*.db
+*.vcxproj
+*.user
+*.vs
