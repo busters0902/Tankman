@@ -36,7 +36,7 @@ void GameManager::Setup()
 	KeyManager::Initialize();
 
 	//バグあり
-	//SoundsManager::Initialize();
+	SoundsManager::Initialize();
 
 	Debug::Initialize();
 
@@ -49,7 +49,7 @@ void GameManager::Setup()
 void GameManager::Shutdown()
 {
 
-	//SoundsManager::Finalize();
+	SoundsManager::Finalize();
 
 	Shadow::Finalize();
 
@@ -72,14 +72,14 @@ void GameManager::Draw()
 {
 
 	//メイン描画
-	Scene::Get()->Draw();
+	if(Scene::Get() != nullptr) Scene::Get()->Draw();
 
 	//トランジションなど
 
 }
 
 //=======================================================================================
-//
+//シーン移動
 //=======================================================================================
 void GameManager::Shift()
 {

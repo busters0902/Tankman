@@ -196,6 +196,7 @@ void PlayScene::Update()
 		Collide();
 		Event();
 		UpdateUI();
+
 		--limit;
 	}
 	else

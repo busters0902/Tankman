@@ -17,7 +17,7 @@ class TitleScene : public SceneBase
 public:
 	TitleScene();
 	~TitleScene();
-	TitleScene(const TitleScene &obj);	//コピーされるので必要
+	TitleScene(const TitleScene &obj);	
 	
 public:
 	void CreateObjects(const ci::JsonTree& json);

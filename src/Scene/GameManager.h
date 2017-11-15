@@ -53,5 +53,3 @@ public:
 	void MouseMove(ci::app::MouseEvent event);
 	void MouseDrag(ci::app::MouseEvent event);
 };
-
-//ƒJƒƒ‰‚ÌŒvZ
