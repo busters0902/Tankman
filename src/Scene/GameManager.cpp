@@ -35,7 +35,6 @@ void GameManager::Setup()
 	
 	KeyManager::Initialize();
 
-	//ƒoƒO‚ ‚è
 	SoundsManager::Initialize();
 
 	Debug::Initialize();
@@ -59,8 +58,9 @@ void GameManager::Shutdown()
 void GameManager::Update()
 {
 	KeyManager::Update();
+	
+	Debug::ChangeDebugDraw();
 
-	//Debug::ChangeDebugDraw();
 	Debug::Update();
 
 	Scene::Get()->Shift();

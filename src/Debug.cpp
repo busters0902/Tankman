@@ -57,43 +57,19 @@ void Debug::Update()
 	//デバッグモード
 	if (KeyManager::GetKeyDown('9'))
 	{
-		//スイッチ
-		if (usesDebugMode)
-		{
-			usesDebugMode = false;
-		}
-		else
-		{
-			usesDebugMode = true;
-		}
+		usesDebugMode = !usesDebugMode;
 	}
 
 	//デバッグ描画
 	if (KeyManager::GetKeyDown('0'))
 	{
-		//スイッチ
-		if (drawsDebugLog)
-		{
-			drawsDebugLog = false;
-		}
-		else
-		{
-			drawsDebugLog = true;
-		}
+		drawsDebugLog = !drawsDebugLog;
 	}
 
 	//衝突判定描画
 	if (KeyManager::GetKeyDown('8'))
 	{
-		//スイッチ
-		if (drawsColliders)
-		{
-			drawsColliders = false;
-		}
-		else
-		{
-			drawsColliders = true;
-		}
+		drawsColliders = !drawsColliders;
 	}
 
 	//マイフレーム初期化
@@ -139,7 +115,6 @@ void Debug::ChangeDebugDraw()
 {
 	if (KeyManager::GetKeyDown('9'))
 	{
-		if (drawsDebugLog) drawsDebugLog = false;
-		else drawsDebugLog = true;
+		drawsDebugLog = !drawsDebugLog;
 	}
 }

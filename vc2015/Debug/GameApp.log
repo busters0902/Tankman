@@ -1,41 +1,5 @@
 ﻿cl : コマンド ライン warning D9030: '/Gm' はマルチプロセシングと互換性がありません。/MP スイッチを無視します
-  PlayScene.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-c:\users\to-ya\documents\ps15\3dゲーム制作2\tankgame\src\scene\playscene.cpp(386): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-c:\users\to-ya\documents\ps15\3dゲーム制作2\tankgame\src\scene\playscene.cpp(394): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
   GameManager.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  コードを生成中...
-  コンパイル中...
-  UIObject.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  TitleObject2.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  TitleObject.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  StageObject.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  Shadow.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  TitleScene.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  Scene.cpp
   NOTE: Use of this header (bool_trait_def.hpp) is deprecated
   NOTE: Use of this header (template_arity_spec.hpp) is deprecated
   NOTE: Use of this header (template_arity_spec.hpp) is deprecated
@@ -43,25 +7,21 @@ c:\users\to-ya\documents\ps15\3dゲーム制作2\tankgame\src\scene\playscene.cp
   NOTE: Use of this header (bool_trait_def.hpp) is deprecated
   NOTE: Use of this header (template_arity_spec.hpp) is deprecated
   NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  Enemy.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-c:\users\to-ya\documents\ps15\3dゲーム制作2\tankgame\src\enemy.cpp(81): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
   Debug.cpp
   NOTE: Use of this header (bool_trait_def.hpp) is deprecated
   NOTE: Use of this header (template_arity_spec.hpp) is deprecated
   NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  Camera.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-c:\users\to-ya\documents\ps15\3dゲーム制作2\tankgame\src\camera.cpp(12): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
-  Bullet.cpp
-  NOTE: Use of this header (bool_trait_def.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-  NOTE: Use of this header (template_arity_spec.hpp) is deprecated
-c:\users\to-ya\documents\ps15\3dゲーム制作2\tankgame\src\bullet.cpp(300): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
-c:\users\to-ya\documents\ps15\3dゲーム制作2\tankgame\src\bullet.cpp(292): warning C4101: 'dot': ローカル変数は 1 度も使われていません。
   コードを生成中...
+  スキップ中... (関連する変更は検出されませんでした)
+  UIObject.cpp
+  TitleObject2.cpp
+  TitleObject.cpp
+  StageObject.cpp
+  Shadow.cpp
+  TitleScene.cpp
+  Scene.cpp
+  PlayScene.cpp
+  Enemy.cpp
+  Camera.cpp
+  Bullet.cpp
   GameApp.vcxproj -> C:\Users\to-ya\Documents\PS15\3Dゲーム制作2\TankGame\vc2015\Debug\GameApp.exe

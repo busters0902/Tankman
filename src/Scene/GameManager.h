@@ -26,7 +26,6 @@ public:
 	}
 
 public:
-	//読み取り専用
 	//iPhone6S	約4.7インチ	1, 334 x 750	約326ppi	１６：９
 	//Galaxy S6 SC-05G	約5.1インチ	2560×1440	約575ppi	16:9
 	enum WindowSize

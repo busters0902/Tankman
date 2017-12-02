@@ -1,4 +1,4 @@
-//GameApp	16/07/26
+//Main
 
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
